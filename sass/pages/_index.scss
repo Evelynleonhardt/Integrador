@@ -1,6 +1,17 @@
 .section-cards {
     background-color: #FFFFFF;
     padding: 1rem;
+ &__header{
+    font-size: 80%;
+    font-weight:200;
+    color:black;
+p 
+{   margin-top: 5px;
+    margin-bottom: 14px;
+    font-weight: 200;
+    font-size: 15px;
+}
+ }
 }
 
 .cards-container {
