@@ -31,7 +31,7 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-    background-color: lightblue;
+    background-color: white;
 
     &__nav-list { /* .nav-bar__nav-list */
         display: flex;
@@ -47,15 +47,26 @@
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
+         background-color:white;
+        &:hover {
+            background-color: white;
+            border-radius: 30px;
+            transform: scale(1.04);
+            transform-origin: bottom;
+            box-shadow: 0px 3px 4px 0px rgba(0 ,0 ,0 ,0.5);
+          }
+          &:focus {
+             background-color: white;
+             border-radius: 10px;
+           }
     }
 
     &__nav-link {
         display: block;
-        background-color: lightblue;
+        background-color: #FFFFFA;
         padding: 1rem 2rem;
-        text-decoration: none;
-        border: solid 1px black;
+        text-decoration: none;    
+     border-radius: 20px;
     }
 
     @media (max-width: 768px) {
