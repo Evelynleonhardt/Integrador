@@ -93,7 +93,7 @@
     &__form-container {
        padding: 1rem;
 
-       background-color: gold;
+       background-color: #fcdcdf;
        display: flex;
        flex-basis: 100%;
        justify-content: center;
@@ -117,6 +117,11 @@
     &__carrito-container {
         flex: 0 0 3rem; /* shorthand (grow shrink basis */
         background-color: goldenrod;
+        img {
+           height: 35px;
+           margin-top: 10px;
+           margin-left: 5px;
+        }
     }
 }
 
