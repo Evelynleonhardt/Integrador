@@ -3,23 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto Integrador - Inicio</title>
+    <title> Esencia bella </title>
   </head>
   <body>
 
     <header class="main-header">
       <input type="checkbox" id="menu">
+
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+                <li class="nav-bar__nav-item">
+                  <a href="#" class="nav-bar__nav-link">Inicio</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="#" class="nav-bar__nav-link">Nosotros</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="#" class="nav-bar__nav-link">Contacto</a>
+                </li>
+              </ul>
+            </nav> <!-- .nav-bar -->
+
       <div class="search-bar">
         <div class="search-bar__logo-container">
-        <img src="/img/logo.png" alt="logo-pagina" class="logo">
-      </div>
+        <img src="/img/logo.png" alt="logo-pagina" class="logo"></div>
         <form action="#" class="search-bar__form-container">
           <label for="busqueda" class="search-bar__form-label">Buscar</label>
-          <input type="search" class="search-bar__form-search" id="busqueda">
+          <input type="search" class="search-bar__form-search" id="busqueda" value="Busca lo que necesites!">
           <input type="submit" class="search-bar__form-submit" value="Buscar">
         </form>
         <div class="search-bar__carrito-container">
-          <img src="/img/carrito.png" alt="carro_compras">
+          <img src="/img/carrito.png" alt="carro-compras">
         </div>
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
@@ -28,23 +45,7 @@
             <span class="menu-toogle__bottom-bread"></span>
           </label>
         </div>
-        <nav class="nav-bar">
-          <ul class="nav-bar__nav-list">
-            <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Inicio</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Nosotros</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Contacto</a>
-            </li>
-          </ul>
-        </nav> <!-- .nav-bar -->
-      </div> <!-- .search-bar -->
+   
 
     </header> <!-- main-header -->
 
