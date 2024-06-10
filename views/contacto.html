@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Integrador - Contacto</title>
+    <title>Contacto</title>
 </head>
 <body>
     <header class="main-header">
         <input type="checkbox" id="menu">
-  
+    
         <nav class="nav-bar">
           <ul class="nav-bar__nav-list">
             <li class="nav-bar__nav-item">
               <a href="#" class="nav-bar__nav-link">Inicio</a>
-            </li>
-            <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Alta</a>
             </li>
             <li class="nav-bar__nav-item">
               <a href="#" class="nav-bar__nav-link">Nosotros</a>
@@ -23,17 +20,24 @@
             <li class="nav-bar__nav-item">
               <a href="#" class="nav-bar__nav-link">Contacto</a>
             </li>
+            <li class="nav-bar__nav-item">
+              <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
+            </li>
           </ul>
         </nav> <!-- .nav-bar -->
-  
+    
         <div class="search-bar">
-          <div class="search-bar__logo-container">Logo</div>
+          <div class="search-bar__logo-container">
+            <img src="/img/logo.png" alt="logo-pagina" class="logo">
+          </div>
           <form action="#" class="search-bar__form-container">
             <label for="busqueda" class="search-bar__form-label">Buscar</label>
-            <input type="search" class="search-bar__form-search" id="busqueda">
+            <input type="search" class="search-bar__form-search" id="busqueda" value="Busca lo que necesites!">
             <input type="submit" class="search-bar__form-submit" value="Buscar">
           </form>
-          <div class="search-bar__carrito-container">C</div>
+          <div class="search-bar__carrito-container">
+            <img src="/img/carrito.png" alt="carro-compras">
+          </div>
           <div class="menu-toogle">
             <label for="menu" class="menu-toogle__label">
               <span class="menu-toogle__top-bread"></span>
@@ -41,18 +45,38 @@
               <span class="menu-toogle__bottom-bread"></span>
             </label>
           </div>
-        </div> <!-- .search-bar -->
-  
-      </header> <!-- main-header -->
-
-      <main>
-        <h1>Contacto</h1>
-
-        <form action="">
-
-        </form>
-      </main>
     
+    
+      </header> <!-- main-header -->
+    
+      <main>
+    </main>
+     <!-- footer -->
+  <div class="footer">
+    <div class="footer__info">
+      <p>Suscribite a nuestro Newsletter </p>
+      <input type="email" class="email" id="email" value="Email">
+    </div>
+    <ul class="footer__description">
+      <ul> <a href="/views/index.html" class="footer__links">Inicio</a></ul>
+      <a href="/views/carrito.html" class="footer__links">
+        <ul>Carrito</ul>
+        <a href="/views/contacto.html" class="footer__links">
+          <ul>Contacto</ul>
+          <a href="/views/nosotros.html" class="footer__links">
+            <ul>Nosotros</ul>
+    </ul>
+
+    <div class="footer__contact">
+      <ul>Contacto</ul>
+      <ul>Teléfono: 123456789</ul>
+      <ul>Mail: Esenciabella@gmail.com</ul>
+    </div>
+
+    <div class="footer__map">
+      <p>Dónde estamos</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d210253.7423517312!2d-58.421015!3d-34.573433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1717891342192!5m2!1ses-419!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <script type="module" src="/main.js"></script>
 </body>
 </html>

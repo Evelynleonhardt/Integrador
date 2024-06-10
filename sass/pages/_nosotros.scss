@@ -1,0 +1,196 @@
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        & { /* .main-header */
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+#menu {
+    display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: pink;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+
+.nav-bar {
+    background-color: white;
+
+    &__nav-list { /* .nav-bar__nav-list */
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        margin-top: 2px;
+        border-radius: 30px;
+        
+        @media (max-width: 768px) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__nav-item {
+        text-align: center;
+         border-radius: 30px;
+         margin-top: 2px; 
+         &:hover {
+           
+            color: white;
+            border-radius: 30px;
+            transform: scale(1.04);
+            transform-origin: bottom;
+            box-shadow: 0px 3px 4px 0px rgba(0 ,0 ,0 ,0.5);
+           
+          }
+          &:focus {
+             background-color: #2c2fa5;
+            color: white;
+             border-radius: 10px;
+             box-shadow: 0px 3px 4px 0px rgba(0 ,0 ,0 ,0.5);
+           }
+    }
+
+    &__nav-link {
+        display: block;
+        background-color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;    
+        border-radius: 20px;
+        border:solid 1px grey;
+        cursor: pointer;
+        &:hover {
+        background-color: pink; /* Color de fondo al pasar el cursor */
+        color:white;
+
+        }
+    }
+
+    @media (max-width: 768px) {
+        & { /* .nav-bar */
+            display: none;
+        }
+    }
+}
+
+/* -------------------------------------------------------- */
+/* SEARCH BAR */
+/* -------------------------------------------------------- */
+
+.search-bar {
+    background-color: whitesmoke;
+    display: flex; 
+    justify-content: space-around;
+
+    &__logo-container { /* .search-bar__logo-container */
+        width: 15.2rem;
+        height: 4.3rem;
+    }
+
+    &__form-container {
+       padding: 1rem;
+       background-color: white;
+       display: flex;
+       flex-basis: 100%;
+       justify-content: center;
+    }
+
+    &__form-label {
+        font-weight:400;
+        color: #f1889b;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    &__form-search {
+        background-color: 814e0008;
+        width: 70%;
+         box-sizing: border-box;
+         color: grey;
+         text-align: center;
+         size:100px;
+        }
+
+    &__form-submit {
+        background-color: pink;
+        color: white;
+        height: 100%;
+        padding: 10px 15px;
+    }
+    
+    &__carrito-container {
+        flex: 0 0 3rem; /* shorthand (grow shrink basis */
+        background-color: white;
+        img {height: 40px;
+           margin: 15px 15px 12px 2px;
+           border: solid 2px grey;
+           border-radius:15px;
+           padding: 7px;
+        }
+    }
+}
+
+
+/* -------------------------------------------------------- */
+/* MENÚ TOOGLE */
+/* -------------------------------------------------------- */
+
+.menu-toogle {
+    display: none;
+    flex: 0 0 3rem;
+    position: relative;
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        background-color: pink;
+        height: 100%;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: #ffcdd4;
+        height: .2rem;
+        position: absolute;
+        left: .5rem;
+        right: .5rem;
+    }
+
+    &__top-bread {
+        top: .8rem;
+    }
+
+    &__meat {
+        top: 50%;
+        margin-top: -.1rem;
+    }
+    &__bottom-bread {
+        bottom: .8rem;
+    }
+
+    @media (max-width: 768px) {
+        & { /* .menu-toogle */
+            display: block;
+        }
+    }
+}
+
