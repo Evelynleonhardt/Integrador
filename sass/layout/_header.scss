@@ -21,7 +21,7 @@
     }
 
     &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
-        background-color: yellow;
+        background-color: pink;
     }
 
 }
@@ -39,6 +39,7 @@
         justify-content: center;
         margin-top: 2px;
         border-radius: 30px;
+        
         @media (max-width: 768px) {
             & {
                 flex-direction: column;
@@ -48,12 +49,11 @@
 
     &__nav-item {
         text-align: center;
-         background-color:white;
          border-radius: 30px;
          margin-top: 2px; 
-    
          &:hover {
-            background-color: white;
+           
+            color: white;
             border-radius: 30px;
             transform: scale(1.04);
             transform-origin: bottom;
@@ -61,7 +61,8 @@
            
           }
           &:focus {
-             background-color: white;
+             background-color: #2c2fa5;
+            color: white;
              border-radius: 10px;
              box-shadow: 0px 3px 4px 0px rgba(0 ,0 ,0 ,0.5);
            }
@@ -74,6 +75,12 @@
         text-decoration: none;    
         border-radius: 20px;
         border:solid 1px grey;
+        cursor: pointer;
+        &:hover {
+        background-color: pink; /* Color de fondo al pasar el cursor */
+        color:white;
+
+        }
     }
 
     @media (max-width: 768px) {
@@ -147,14 +154,13 @@
 
 .menu-toogle {
     display: none;
-    background-color: red;
     flex: 0 0 3rem;
     position: relative;
     cursor: pointer;
 
     &__label {
         display: block;
-        background-color: black;
+        background-color: pink;
         height: 100%;
     }
 
@@ -162,7 +168,7 @@
     &__meat,
     &__bottom-bread {
         display: block;
-        background-color: #333;
+        background-color: #ffcdd4;
         height: .2rem;
         position: absolute;
         left: .5rem;
