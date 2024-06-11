@@ -167,7 +167,6 @@
             width: 700%;
            }
 
-
             .card__image-container1{
                 box-sizing: content-box;
                 width: 400px;
@@ -181,9 +180,15 @@
                 margin-left: 550%;
                 
             }
+            .card__image-container3{
+                box-sizing: content-box;
+                width: 50%;
+                height: 30%;
+                margin-top: 15px;
+            }
                 }
-}
-    
+
+            }
     
     .card__description_nosotros1{
         position: absolute;
@@ -195,7 +200,6 @@
          p {
             margin-top: 5px;
              margin-bottom: 14px;
-             
              font-weight: 300;
              font-size: 35px;
              font-style: italic;
@@ -209,25 +213,25 @@
              p {
                 margin-top: -10%;
                 margin-right: 40%;
-                 font-weight: 400;
+                 font-weight: 300;
                  font-size: 35px;
                  font-style: italic;
              }
             }
             .card__description_nosotros3{
                 position: absolute;
-                left: 5%;
-                margin-top: -250px;
+                left: 55%;
+                margin-top: -280px;
                 margin-bottom: 10px;
+                margin-right: 60px;
+
                  p {
-                    margin-top: -10%;
-                    margin-right: 40%;
-                     font-weight: 400;
+                     font-weight: 300;
                      font-size: 35px;
                      font-style: italic;
                  }
                 }
-     
+
     
 
 
