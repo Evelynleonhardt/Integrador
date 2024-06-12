@@ -232,17 +232,18 @@
                  }
                 }
 
-                @media (max-width: 768px) 
+                @media screen and (max-width: 768px) 
                     { /* .nosotros */
+                                
                     .section-cards__nosotros {
+                        border-color: red($color: #000000);
                         background-color: #FFFFFF;
                         display: inline-block;
                         .card__heading_nosotros {
-                            width: 400%;
+                            width: 300%;
                         }
 
                         .cards-container__nosotros {
-                            gap: 5rem;
                             margin-top: 10px;
                             height: 100%;
                             .card_nosotros{
@@ -257,7 +258,7 @@
                                     height: 400px;
                                     margin-top: 15px;
                                     margin-bottom: 70px;
-                                    margin-left: 70px;
+                                    margin-left: 30px;
                                 }
                                 .card__image-container2{
                                     box-sizing: content-box;
@@ -273,13 +274,13 @@
                                 }
                                 .card__description_nosotros1{
                                     position: absolute;
-                                    left: 70%;
+                                    left: 60%;
                                     margin-top: -500px;
                                     margin-bottom: 10px;
-                                    margin-right: 35px;
+                                    margin-right: 70px;
                             
                                      p {
-                                        margin-top: 60px;
+                                        margin-top: 90px;
                                          margin-bottom: 14px;
                                          font-weight: 300;
                                          font-size: 20px;
@@ -306,19 +307,20 @@
                                             position: absolute;
                                             margin-top: -250px;
                                             margin-bottom: 10px;
-                                            margin-right: 10px;
+                                            margin-right: 0px;
                                         
                                              p {
                                                 margin-top:40px;
                                                  font-weight: 300;
                                                  font-size: 20px;
                                                  font-style: italic;
-                                                 margin-right:15px ;
+                                                 margin-right:-20px ;
                                              }
                                             }                            
 }
 }
 }
+                
                 
 /* -------------------------------------------------------- */
 /* MENÚ TOOGLE */

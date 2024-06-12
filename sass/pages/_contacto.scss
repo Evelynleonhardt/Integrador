@@ -25,7 +25,52 @@
     }
 
 }
+/* -------------------------------------------------------- */
+/* FORM */
+/* -------------------------------------------------------- */
+// *body {background-color: pink;}
+.information{ 
+    background-color: PINK ;
+    color: black;
+margin-bottom: 10px;
+    border: 9px ;
+    width: 400px;
+    font-weight: 400;
+display: inherit;
+margin-left: 40%;
+padding: 60px 20px;
+border-radius: 20px;
 
+
+.box{
+    border-color: black;
+    legend {
+        margin-bottom: 10px;
+    }
+}
+}
+.consulta{
+    padding: 60px 90px ;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.title {
+    font-weight: 800;
+    border-bottom: 20px;
+}
+.label_form {
+    margin-left: 20px;
+.input{
+    margin-left:10px;
+    margin-bottom: 4px;
+
+    }
+    .input-a {
+        margin-left:2px;
+        margin-bottom: 4px;
+        }  
+}
 /* -------------------------------------------------------- */
 /* NAVBAR */
 /* -------------------------------------------------------- */
@@ -34,7 +79,7 @@
     background-color: white;
 
     &__nav-list { /* .nav-bar__nav-list */
-        display: flex;
+        display: block;
         list-style-type: none;
         justify-content: center;
         margin-top: 2px;
@@ -192,5 +237,6 @@
             display: block;
         }
     }
-}
+ 
 
+}

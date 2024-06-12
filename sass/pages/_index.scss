@@ -89,10 +89,9 @@
     }
     &__map {
         width: 400px;
-        margin-top: 10%;
+        margin-top: -48%;
+        margin-left: 70%;
         p{
-            display:flex;
-            flex-direction: column;
 padding-top: 45%;
 
                     }
@@ -102,6 +101,10 @@ padding-top: 45%;
     flex-direction: column;
     font-weight:bold;
     color: black;
+    &__map {
+        width: 400px;
+        margin-top: -20%;
+        }
   .email {
     padding: 5px 2px;
     margin-left: auto;
@@ -148,19 +151,19 @@ padding-top: 45%;
             }
     
         }
-        &__map {
-            margin-left: 70%;
-            margin-top: -48%;
+        // &__map {
+        //     margin-left: 70%;
+        //     margin-top: -48%;
     
-        p{
-            margin-top: -110px;
-            margin-bottom: 15px;
+        // p{
+        //     margin-top: -110px;
+        //     margin-bottom: 15px;
 
-        }
+        // }
     
     }
 
 }
-}
+// }
 
 
