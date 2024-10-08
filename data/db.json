@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {"id": 1,"nombre": "Protector Solar","foto": "/img/protectorsolar.jpg","descripcion": "Protector solar con color de cobertura natural contra rayos UVB y UVA (SPF 50). Ultraligero y de uso diario. ¿Quieres saber más?","precio": "22.000"},
+    {"id": 2,"nombre": "Kit Masajeador","foto": "/img/Guasha.jpg","descripcion": "Su diseño de rodillo permite un masaje suave y efectivo, ayudando a mejorar la circulación sanguínea y a reducir la hinchazón.","precio": "30.000"},
+    {"id": 3,"nombre": "Combo de Skincare","foto": "/img/comboskincare.jpg","descripcion": "Este kit es una excelente opción para quienes buscan una solución completa para el cuidado de la piel mixta a grasa.","precio": "50.000"},
+    {"id": 4,"nombre": "Correctores","foto": "/img/corrector.jpg","descripcion": "Su fórmula activa y aplicador microcorrector borra al instante las ojeras, bolsas y líneas finas,para lograr una mirada más radiante","precio": "5.000"},
+    {"id": 5,"nombre": "Agua micelar Garnier","foto": "/img/aguamicelar.jpg","descripcion": "El Agua Micelar Todo en 1 limpia, desmaquilla y tonifica en un solo gesto rostro, ojos y labios.",
+      "precio": "12.000"},
+    {"id": 6,"nombre": "Lifter Gloss","foto": "/img/gloss.jpg","descripcion": "Descubrí el nuevo brillo de labios hidratante de Maybelline New York", "precio": "8.000"},
+    {"id": 7,"nombre": "Neutrogena Hydro Boost","foto": "/img/crema.jpg","descripcion": "Renueva y reestablece los niveles de agua de la piel a lo largo del día. Estimula la renovación de la piel ofreciendo una hidratación de 48 horas.","precio": "13.000"},
+      {"id": 8,"nombre": "Combo Fructis","foto": "/img/shampoo.jpg","descripcion": "Shampoo y acondicionar Fructis Hairfood con palta para pelo seco y con 98% de Ingredientes de origen natural.", "precio": "11.000"},
+      {"id": 9, "nombre": "Mist Corporal","foto": "/img/perfume.jpg","descripcion": "Para cada momento y cada lado de vos, descubre aromas únicos que lo abarcan todo.","precio": "10.000"},
+      {"id": 10,"nombre": "Protector Solar","foto": "/img/protectorsolar.jpg","descripcion": "Protector solar con color de cobertura natural contra rayos UVB y UVA (SPF 50). Ultraligero y de uso diario. ¿Quieres saber más?", "precio": "22.000"},
+      {"id": 11, "nombre": "Serum La Roche Posay","foto": "/img/serum.jpg","descripcion": "Este serum promueve la producción de colágeno gracias al ácido hialurónico.","precio": "30.000"},
+    {"id": 12,"nombre": "Pads Anti Ojeras","foto": "/img/pads.jpg","descripcion": "Hidrata, refresca y revitaliza tu mirada con los Pads Hidrogel Collagen Shine.","precio": "18.000"},
+    {"id": 13, "nombre": "Exfoliante Dove","foto": "/img/exfoliante.jpg","descripcion": "El exfoliante corporal utiliza exfoliación moderada para eliminar la piel muerta","precio": "22.000"},
+    { "id": 14,"nombre": "Brochas Maquillaje","foto": "/img/brochas.jpg","descripcion": "Set brochas de maquillaje, edición Marble. Cruelty free, apto veganas y pieles sensibles.","precio": "22.000"}
+  ]
+}
